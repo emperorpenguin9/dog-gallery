@@ -1,0 +1,16 @@
+Create a dog's gallery by using the data get from public APIs.
+Requirement:
+// 1. You application should display a "Loading" at launch, following the naming convention for Classes and IDs below.
+// 2. Making a simple GET call to  https://dog.ceo/api/breeds/list/all   fetch all the dog breeds data.
+// 3.Get a random picture for each breed by making a GET call to 
+// https://dog.ceo/api/breeds/{breedName}/images/random
+// 4.When all API calls have been completed , your application must remove the loading container.
+// 5. Please consider the performance when using API to load images.
+// 6. Display all the images in a gallery.
+//  The UI should be responsive - do not set a fixed width for the images.(Implement CSS techniques to make images of varying sizes adapt dynamically to the viewport width. YOu can leverage the spaces in between each image, or you can make the size of images dynamically responsive)
+// 7.Hover on an image to show the dog breed name on the left bottom corner
+// 8.Follow the naming convention for clasees and IDs
+// Gallery container id: js_gallery
+// Loading container id: js_loading
+// Each img tag need to have a class name: js_img
+// Each breed name need to have a class name: js_name
